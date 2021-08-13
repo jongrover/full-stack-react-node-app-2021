@@ -1,0 +1,27 @@
+{
+  "name": "full-stack-react-node-app-2021",
+  "version": "1.0.0",
+  "description": "Code from tutorial at: [https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/](https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jongrover/full-stack-react-node-app-2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jongrover/full-stack-react-node-app-2021/issues"
+  },
+  "homepage": "https://github.com/jongrover/full-stack-react-node-app-2021#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.5.0"
+  }
+}
